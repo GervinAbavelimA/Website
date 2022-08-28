@@ -68,7 +68,7 @@ ul li a:hover{
 
 .search{
     width: 300px;
-    float: left;
+    float: right;
     margin-left: 270px;
 }
 
@@ -177,7 +177,7 @@ ul li a:hover{
     text-align: center;
     color: #ff7200;
     font-size: 22px;
-    background-color: #fff;
+    background: linear-gradient(to top, rgba(0,0,0,0.8) 50%, rgba(0,0,0,0.8) 50%);
     margin: 2px;
     padding: 8px;
 }
@@ -241,6 +241,9 @@ ul li a:hover{
     text-decoration: none;
     color: #ff7200;
 }
+.sign{
+    padding: ;
+}
 
 .liw{
     padding-top: 15px;
@@ -248,13 +251,17 @@ ul li a:hover{
     text-align: center;
 }
 .icon {
-    
+    margin-left:10% ;
+    display: flex;
+    justify-content:  space-between;
 }
 .icons a{
     text-decoration: none;
     color: #fff;
 }
-
+.inner-icon{
+    color: #ff7200;
+}
 .icons ion-icon{
     color: #fff;
     font-size: 30px;
@@ -263,6 +270,7 @@ ul li a:hover{
     transition: 0.3s ease;
 }
 
-.icons ion-icon:hover{
-    color: #ff7200;
+.inner-icon:hover{
+    transform: scale(1.8);
+    transition: 0.5s;
 }
