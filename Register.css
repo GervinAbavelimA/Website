@@ -48,9 +48,17 @@ body{
 }
 
 form  .user-details  .input-box{
+    margin: 20px 0 12px 0;
     width: calc(100% / 2 - 20px);
 }
 
-form  .user-details  .input-box input{
+.user-details  .input-box .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.user-details  .input-box input{
     height: 45px;
+    width: 100%;
 }
