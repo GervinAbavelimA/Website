@@ -45,10 +45,11 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 20px 0 12px 0;
 }
 
 form  .user-details  .input-box{
-    margin: 20px 0 12px 0;
+    margin-bottom: 15px;
     width: calc(100% / 2 - 20px);
 }
 
@@ -66,4 +67,10 @@ form  .user-details  .input-box{
     border: 1px solid #ccc;
     padding-left: 15px;
     font-size: 16px;
+    border-bottom-width: 2px;
+}
+
+.user-details  .input-box input:focus,
+.user-details  .input-box input:valid{
+    border-color: #9b59b6;
 }
