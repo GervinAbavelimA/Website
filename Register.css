@@ -61,4 +61,9 @@ form  .user-details  .input-box{
 .user-details  .input-box input{
     height: 45px;
     width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
 }
