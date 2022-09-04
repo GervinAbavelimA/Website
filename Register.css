@@ -101,4 +101,61 @@ form .gender-details .category{
     border-radius: 50%;
     margin-left: 10px;
     border: 5px solid transparent;
+    transition: all 0.3s ease;
 }
+
+#dot-1:checked ~ .category  label .one,
+#dot-2:checked ~ .category  label .two,
+#dot-3:checked ~ .category  label .three{
+    border-color: #d9d9d9;
+    background: #9b59b6; 
+ }
+
+ form input[type="radio"]{
+    display: none;
+ }
+
+ form .buttom{
+   height: 45px;
+   margin: 45px 0;
+ }
+
+ form .buttom input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+ }
+
+ form .buttom input:hover{
+    background-color: #fff;
+    color: #040720;
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+ }
+
+ @media (max-width: 584px) {
+    .container{
+        max-width: 100%;
+    }
+    form .user-details .input-box{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    form .gender-details .category{
+        width: 100%;
+    }
+    .container  form  .user-details{
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+    .user-details::-webkit-scrollbar{
+        width: 0;
+    }
+ }
