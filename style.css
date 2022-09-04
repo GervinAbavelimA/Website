@@ -1,6 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
+
 }
 
 
@@ -243,9 +244,9 @@ ul li a:hover{
     text-decoration: none;
     color: #71b7e6;
 }
-.sign{
+/*.sign{
     padding: ;
-}
+}*/
 
 .liw{
     padding-top: 15px;
